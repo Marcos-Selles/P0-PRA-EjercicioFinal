@@ -1,12 +1,12 @@
 #include <iostream>
 #include "BrazoRobotico.h" // Incluye la declaración de la clase BrazoRobotico
 
-	int main() {
+	int main () {
     		// Crea una instancia de la clase BrazoRobotico
    	 	BrazoRobotico brazo1(0.0, 0.0, 0.0, false);
 
     		// Muestra la información inicial
-    		std::cout << "Posición inicial del brazo: (" << brazo1.getX() << ", " << brazo.getY() << ", " << brazo.getZ() << ")" << std::endl;
+    		std::cout << "Posición inicial del brazo: (" << brazo1.getX() << ", " << brazo1.getY() << ", " << brazo1.getZ() << ")" << std::endl;
     		std::cout << "¿Está sujetando un objeto? " << (brazo1.getSujetar() ? "Sí" : "No") << std::endl;
 
     		// Mueve el brazo a una nueva posición
@@ -25,7 +25,7 @@
     		brazo1.soltar();
 
     		// Muestra que el brazo ha soltado el objeto
-    		std::cout << "¿Está sujetando un objeto? " << (brazo.getSujetar() ? "Sí" : "No") << std::endl;
+    		std::cout << "¿Está sujetando un objeto? " << (brazo1.getSujetar() ? "Sí" : "No") << std::endl;
 
     	return 0;
 

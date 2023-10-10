@@ -3,7 +3,7 @@
 
 
 	//MetodoConstructor
-	BrazoRobotico:: BrazoRobotico(double x1,double y1,double z1,bool Sujetar);{
+	BrazoRobotico:: BrazoRobotico(double x1,double y1,double z1,bool Sujetar){
 		x = x1;
 		y = y1;
 		z = z1; 
@@ -35,8 +35,8 @@
                 return z;
 
         }
+	bool  BrazoRobotico:: getSujetar(){
 
-	bool BrazoRobotico:: getsujetar(){
 		return sujetar;
 	}
 
