@@ -21,11 +21,11 @@
     		// Muestra si el brazo está sujetando un objeto
     		std::cout << "¿Está sujetando un objeto? " << (brazo1.getSujetar() ? "Sí" : "No") << std::endl;
 
-    		// Suelta el objeto
+    		/* Suelta el objeto
     		brazo1.soltar();
 
-    		// Muestra que el brazo ha soltado el objeto
-    		std::cout << "¿Está sujetando un objeto? " << (brazo1.getSujetar() ? "Sí" : "No") << std::endl;
+    		 Muestra que el brazo ha soltado el objeto
+    		std::cout << "¿Está sujetando un objeto? " << (brazo1.getSujetar() ? "Sí" : "No") << std::endl;*/
 
     	return 0;
 
